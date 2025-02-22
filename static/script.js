@@ -17,14 +17,3 @@ document.querySelector("form")?.addEventListener("submit", function (e) {
         button.disabled = true;
     }
 });
-
-// Add fade-in animation to elements
-document.addEventListener("DOMContentLoaded", function () {
-    const elements = document.querySelectorAll(".fade-in");
-    elements.forEach((element) => {
-        element.style.opacity = 0;
-        setTimeout(() => {
-            element.style.opacity = 1;
-        }, 100);
-    });
-});
