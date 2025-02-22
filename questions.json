@@ -2,27 +2,181 @@
     {
         "id": 1,
         "question": "Do you enjoy solving complex problems?",
-        "trait": "logical_reasoning"
+        "trait": "logical_reasoning",
+        "category": "science"
     },
     {
         "id": 2,
-        "question": "Are you interested in creating art or designs?",
-        "trait": "creativity"
+        "question": "Are you interested in how the human body works?",
+        "trait": "biology",
+        "category": "science"
     },
     {
         "id": 3,
-        "question": "Do you like working with numbers?",
-        "trait": "analytical_skills"
+        "question": "Do you like working with numbers and statistics?",
+        "trait": "analytical_skills",
+        "category": "science"
     },
     {
         "id": 4,
-        "question": "Do you enjoy helping others?",
-        "trait": "empathy"
+        "question": "Are you fascinated by space and astronomy?",
+        "trait": "curiosity",
+        "category": "science"
     },
     {
         "id": 5,
-        "question": "Are you good at explaining things to others?",
-        "trait": "communication"
+        "question": "Do you enjoy conducting experiments?",
+        "trait": "problem_solving",
+        "category": "science"
     },
-    // Add 95 more questions...
+    {
+        "id": 6,
+        "question": "Are you interested in technology and innovation?",
+        "trait": "technology",
+        "category": "science"
+    },
+    {
+        "id": 7,
+        "question": "Do you like building or fixing things?",
+        "trait": "engineering",
+        "category": "science"
+    },
+    {
+        "id": 8,
+        "question": "Are you good at understanding how machines work?",
+        "trait": "mechanical_skills",
+        "category": "science"
+    },
+    {
+        "id": 9,
+        "question": "Do you enjoy learning about chemical reactions?",
+        "trait": "chemistry",
+        "category": "science"
+    },
+    {
+        "id": 10,
+        "question": "Are you interested in environmental science?",
+        "trait": "environment",
+        "category": "science"
+    },
+    {
+        "id": 11,
+        "question": "Do you enjoy creating art or designs?",
+        "trait": "creativity",
+        "category": "arts"
+    },
+    {
+        "id": 12,
+        "question": "Are you passionate about music?",
+        "trait": "music",
+        "category": "arts"
+    },
+    {
+        "id": 13,
+        "question": "Do you like writing stories or poetry?",
+        "trait": "writing",
+        "category": "arts"
+    },
+    {
+        "id": 14,
+        "question": "Are you interested in acting or theater?",
+        "trait": "performance",
+        "category": "arts"
+    },
+    {
+        "id": 15,
+        "question": "Do you enjoy photography or videography?",
+        "trait": "visual_arts",
+        "category": "arts"
+    },
+    {
+        "id": 16,
+        "question": "Are you good at drawing or painting?",
+        "trait": "fine_arts",
+        "category": "arts"
+    },
+    {
+        "id": 17,
+        "question": "Do you like designing clothes or accessories?",
+        "trait": "fashion",
+        "category": "arts"
+    },
+    {
+        "id": 18,
+        "question": "Are you interested in filmmaking?",
+        "trait": "cinematography",
+        "category": "arts"
+    },
+    {
+        "id": 19,
+        "question": "Do you enjoy working with graphic design software?",
+        "trait": "graphic_design",
+        "category": "arts"
+    },
+    {
+        "id": 20,
+        "question": "Are you passionate about cultural heritage?",
+        "trait": "cultural_studies",
+        "category": "arts"
+    },
+    {
+        "id": 21,
+        "question": "Do you enjoy helping others?",
+        "trait": "empathy",
+        "category": "social_science"
+    },
+    {
+        "id": 22,
+        "question": "Are you interested in politics and governance?",
+        "trait": "politics",
+        "category": "social_science"
+    },
+    {
+        "id": 23,
+        "question": "Do you like analyzing social trends?",
+        "trait": "analytical_skills",
+        "category": "social_science"
+    },
+    {
+        "id": 24,
+        "question": "Are you good at understanding human behavior?",
+        "trait": "psychology",
+        "category": "social_science"
+    },
+    {
+        "id": 25,
+        "question": "Do you enjoy studying history?",
+        "trait": "history",
+        "category": "social_science"
+    },
+    {
+        "id": 26,
+        "question": "Are you interested in economics and finance?",
+        "trait": "economics",
+        "category": "social_science"
+    },
+    {
+        "id": 27,
+        "question": "Do you like working with communities?",
+        "trait": "community_service",
+        "category": "social_science"
+    },
+    {
+        "id": 28,
+        "question": "Are you passionate about social justice?",
+        "trait": "social_justice",
+        "category": "social_science"
+    },
+    {
+        "id": 29,
+        "question": "Do you enjoy teaching or mentoring others?",
+        "trait": "teaching",
+        "category": "social_science"
+    },
+    {
+        "id": 30,
+        "question": "Are you interested in international relations?",
+        "trait": "international_relations",
+        "category": "social_science"
+    }
 ]

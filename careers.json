@@ -1,31 +1,778 @@
 [
     {
         "name": "Software Engineer",
-        "description": "Develops software applications.",
-        "required_traits": ["logical_reasoning", "analytical_skills"],
+        "description": "Develops software applications and systems.",
+        "required_traits": ["logical_reasoning", "analytical_skills", "technology"],
         "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
-        "cut_off": 200
+        "cut_off": 200,
+        "category": "science"
     },
     {
         "name": "Doctor",
         "description": "Diagnoses and treats medical conditions.",
-        "required_traits": ["empathy", "attention_to_detail"],
+        "required_traits": ["empathy", "attention_to_detail", "biology"],
         "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
-        "cut_off": 250
+        "cut_off": 250,
+        "category": "science"
+    },
+    {
+        "name": "Civil Engineer",
+        "description": "Designs and constructs infrastructure projects.",
+        "required_traits": ["logical_reasoning", "engineering", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 210,
+        "category": "science"
+    },
+    {
+        "name": "Biochemist",
+        "description": "Studies chemical processes in living organisms.",
+        "required_traits": ["chemistry", "analytical_skills", "biology"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 220,
+        "category": "science"
+    },
+    {
+        "name": "Data Scientist",
+        "description": "Analyzes and interprets complex data.",
+        "required_traits": ["analytical_skills", "technology", "statistics"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Astronomer",
+        "description": "Studies celestial objects and phenomena.",
+        "required_traits": ["curiosity", "analytical_skills", "physics"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 220,
+        "category": "science"
+    },
+    {
+        "name": "Environmental Scientist",
+        "description": "Studies and protects the environment.",
+        "required_traits": ["environment", "biology", "curiosity"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Geography"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Mechanical Engineer",
+        "description": "Designs and builds mechanical systems.",
+        "required_traits": ["engineering", "problem_solving", "mechanical_skills"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 210,
+        "category": "science"
+    },
+    {
+        "name": "Pharmacist",
+        "description": "Dispenses medications and provides healthcare advice.",
+        "required_traits": ["attention_to_detail", "biology", "chemistry"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 230,
+        "category": "science"
+    },
+    {
+        "name": "Robotics Engineer",
+        "description": "Designs and builds robots.",
+        "required_traits": ["engineering", "technology", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 210,
+        "category": "science"
     },
     {
         "name": "Graphic Designer",
         "description": "Creates visual content for brands.",
-        "required_traits": ["creativity", "communication"],
+        "required_traits": ["creativity", "communication", "graphic_design"],
         "jamb_subjects": ["English", "Fine Arts", "Economics", "Government"],
-        "cut_off": 180
+        "cut_off": 180,
+        "category": "arts"
     },
     {
-        "name": "Business Analyst",
-        "description": "Analyzes business processes and data.",
-        "required_traits": ["analytical_skills", "communication"],
-        "jamb_subjects": ["English", "Mathematics", "Economics", "Commerce"],
-        "cut_off": 190
+        "name": "Musician",
+        "description": "Creates and performs music.",
+        "required_traits": ["music", "creativity", "performance"],
+        "jamb_subjects": ["English", "Music", "Literature", "Government"],
+        "cut_off": 180,
+        "category": "arts"
     },
-    // Add 96 more careers...
+    {
+        "name": "Writer",
+        "description": "Writes stories, articles, and books.",
+        "required_traits": ["writing", "creativity", "communication"],
+        "jamb_subjects": ["English", "Literature", "Government", "Economics"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Actor",
+        "description": "Performs in films, TV shows, and theater.",
+        "required_traits": ["performance", "creativity", "communication"],
+        "jamb_subjects": ["English", "Literature", "Government", "Economics"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Photographer",
+        "description": "Captures and edits photographs.",
+        "required_traits": ["visual_arts", "creativity", "attention_to_detail"],
+        "jamb_subjects": ["English", "Fine Arts", "Economics", "Government"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Fashion Designer",
+        "description": "Designs clothing and accessories.",
+        "required_traits": ["fashion", "creativity", "communication"],
+        "jamb_subjects": ["English", "Fine Arts", "Economics", "Government"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Filmmaker",
+        "description": "Directs and produces films.",
+        "required_traits": ["cinematography", "creativity", "communication"],
+        "jamb_subjects": ["English", "Literature", "Government", "Economics"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Animator",
+        "description": "Creates animated films and graphics.",
+        "required_traits": ["graphic_design", "creativity", "technology"],
+        "jamb_subjects": ["English", "Fine Arts", "Economics", "Government"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Art Curator",
+        "description": "Manages and displays art collections.",
+        "required_traits": ["cultural_studies", "creativity", "communication"],
+        "jamb_subjects": ["English", "Fine Arts", "Government", "Economics"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Journalist",
+        "description": "Reports news and writes articles.",
+        "required_traits": ["writing", "communication", "curiosity"],
+        "jamb_subjects": ["English", "Literature", "Government", "Economics"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Psychologist",
+        "description": "Studies human behavior and provides therapy.",
+        "required_traits": ["psychology", "empathy", "communication"],
+        "jamb_subjects": ["English", "Biology", "Government", "Economics"],
+        "cut_off": 200,
+        "category": "social_science"
+    },
+    {
+        "name": "Sociologist",
+        "description": "Studies social behavior and societies.",
+        "required_traits": ["analytical_skills", "social_justice", "communication"],
+        "jamb_subjects": ["English", "Government", "Economics", "Literature"],
+        "cut_off": 190,
+        "category": "social_science"
+    },
+    {
+        "name": "Economist",
+        "description": "Analyzes economic data and trends.",
+        "required_traits": ["economics", "analytical_skills", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Economics", "Government"],
+        "cut_off": 200,
+        "category": "social_science"
+    },
+    {
+        "name": "Teacher",
+        "description": "Educates students in various subjects.",
+        "required_traits": ["teaching", "communication", "patience"],
+        "jamb_subjects": ["English", "Mathematics", "Economics", "Government"],
+        "cut_off": 180,
+        "category": "social_science"
+    },
+    {
+        "name": "Social Worker",
+        "description": "Helps individuals and communities in need.",
+        "required_traits": ["empathy", "community_service", "communication"],
+        "jamb_subjects": ["English", "Government", "Economics", "Literature"],
+        "cut_off": 180,
+        "category": "social_science"
+    },
+    {
+        "name": "Political Scientist",
+        "description": "Studies political systems and behavior.",
+        "required_traits": ["politics", "analytical_skills", "communication"],
+        "jamb_subjects": ["English", "Government", "Economics", "Literature"],
+        "cut_off": 190,
+        "category": "social_science"
+    },
+    {
+        "name": "Historian",
+        "description": "Studies and writes about past events.",
+        "required_traits": ["history", "writing", "curiosity"],
+        "jamb_subjects": ["English", "History", "Government", "Literature"],
+        "cut_off": 180,
+        "category": "social_science"
+    },
+    {
+        "name": "Lawyer",
+        "description": "Provides legal advice and represents clients in court.",
+        "required_traits": ["communication", "logical_reasoning", "law"],
+        "jamb_subjects": ["English", "Literature", "Government", "Economics"],
+        "cut_off": 240,
+        "category": "social_science"
+    },
+    {
+        "name": "International Relations Specialist",
+        "description": "Studies and manages relationships between countries.",
+        "required_traits": ["international_relations", "communication", "analytical_skills"],
+        "jamb_subjects": ["English", "Government", "Economics", "Literature"],
+        "cut_off": 200,
+        "category": "social_science"
+    },
+    {
+        "name": "Biomedical Engineer",
+        "description": "Designs medical equipment and devices.",
+        "required_traits": ["engineering", "biology", "technology"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 210,
+        "category": "science"
+    },
+    {
+        "name": "Chemical Engineer",
+        "description": "Designs chemical manufacturing processes.",
+        "required_traits": ["chemistry", "engineering", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 210,
+        "category": "science"
+    },
+    {
+        "name": "Marine Biologist",
+        "description": "Studies marine organisms and ecosystems.",
+        "required_traits": ["biology", "environment", "curiosity"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Geography"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Geologist",
+        "description": "Studies the Earth's structure and processes.",
+        "required_traits": ["geography", "analytical_skills", "curiosity"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Geography"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Microbiologist",
+        "description": "Studies microorganisms and their effects.",
+        "required_traits": ["biology", "analytical_skills", "curiosity"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 210,
+        "category": "science"
+    },
+    {
+        "name": "Physicist",
+        "description": "Studies the fundamental laws of the universe.",
+        "required_traits": ["physics", "analytical_skills", "curiosity"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 220,
+        "category": "science"
+    },
+    {
+        "name": "Statistician",
+        "description": "Analyzes and interprets statistical data.",
+        "required_traits": ["statistics", "analytical_skills", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Economics", "Government"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Zoologist",
+        "description": "Studies animals and their behavior.",
+        "required_traits": ["biology", "animals", "curiosity"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Architect",
+        "description": "Designs buildings and structures.",
+        "required_traits": ["creativity", "architecture", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Fine Arts"],
+        "cut_off": 220,
+        "category": "arts"
+    },
+    {
+        "name": "Interior Designer",
+        "description": "Designs indoor spaces for functionality and aesthetics.",
+        "required_traits": ["creativity", "architecture", "attention_to_detail"],
+        "jamb_subjects": ["English", "Fine Arts", "Economics", "Government"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Fashion Stylist",
+        "description": "Creates and coordinates fashion outfits.",
+        "required_traits": ["fashion", "creativity", "communication"],
+        "jamb_subjects": ["English", "Fine Arts", "Economics", "Government"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Video Game Designer",
+        "description": "Designs the gameplay and mechanics of video games.",
+        "required_traits": ["creativity", "technology", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 190,
+        "category": "arts"
+    },
+    {
+        "name": "UI/UX Designer",
+        "description": "Designs user interfaces and experiences.",
+        "required_traits": ["creativity", "technology", "communication"],
+        "jamb_subjects": ["English", "Fine Arts", "Economics", "Government"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Art Therapist",
+        "description": "Uses art to help people express themselves and heal.",
+        "required_traits": ["creativity", "empathy", "communication"],
+        "jamb_subjects": ["English", "Fine Arts", "Government", "Economics"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Event Planner",
+        "description": "Organizes and coordinates events.",
+        "required_traits": ["organization", "communication", "creativity"],
+        "jamb_subjects": ["English", "Mathematics", "Economics", "Government"],
+        "cut_off": 180,
+        "category": "social_science"
+    },
+    {
+        "name": "Human Resources Manager",
+        "description": "Manages employee relations and recruitment.",
+        "required_traits": ["communication", "organization", "empathy"],
+        "jamb_subjects": ["English", "Mathematics", "Economics", "Government"],
+        "cut_off": 190,
+        "category": "social_science"
+    },
+    {
+        "name": "Public Relations Specialist",
+        "description": "Manages the public image of organizations.",
+        "required_traits": ["communication", "creativity", "organization"],
+        "jamb_subjects": ["English", "Literature", "Government", "Economics"],
+        "cut_off": 180,
+        "category": "social_science"
+    },
+    {
+        "name": "Market Research Analyst",
+        "description": "Analyzes market trends and consumer behavior.",
+        "required_traits": ["analytical_skills", "communication", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Economics", "Government"],
+        "cut_off": 190,
+        "category": "social_science"
+    },
+    {
+        "name": "Urban Planner",
+        "description": "Plans and designs urban spaces.",
+        "required_traits": ["analytical_skills", "problem_solving", "communication"],
+        "jamb_subjects": ["English", "Mathematics", "Economics", "Government"],
+        "cut_off": 190,
+        "category": "social_science"
+    },
+    {
+        "name": "Criminologist",
+        "description": "Studies crime and criminal behavior.",
+        "required_traits": ["analytical_skills", "curiosity", "communication"],
+        "jamb_subjects": ["English", "Government", "Economics", "Literature"],
+        "cut_off": 190,
+        "category": "social_science"
+    },
+    {
+        "name": "Anthropologist",
+        "description": "Studies human societies and cultures.",
+        "required_traits": ["curiosity", "communication", "analytical_skills"],
+        "jamb_subjects": ["English", "Government", "Economics", "Literature"],
+        "cut_off": 190,
+        "category": "social_science"
+    },
+    {
+        "name": "Archaeologist",
+        "description": "Studies human history through artifacts.",
+        "required_traits": ["curiosity", "analytical_skills", "history"],
+        "jamb_subjects": ["English", "History", "Government", "Literature"],
+        "cut_off": 190,
+        "category": "social_science"
+    },
+    {
+        "name": "Librarian",
+        "description": "Manages and organizes library resources.",
+        "required_traits": ["organization", "communication", "curiosity"],
+        "jamb_subjects": ["English", "Literature", "Government", "Economics"],
+        "cut_off": 180,
+        "category": "social_science"
+    },
+    {
+        "name": "Translator",
+        "description": "Translates written or spoken content between languages.",
+        "required_traits": ["language", "communication", "attention_to_detail"],
+        "jamb_subjects": ["English", "Literature", "Government", "Economics"],
+        "cut_off": 180,
+        "category": "social_science"
+    },
+    {
+        "name": "Diplomat",
+        "description": "Represents a country in international relations.",
+        "required_traits": ["communication", "international_relations", "problem_solving"],
+        "jamb_subjects": ["English", "Government", "Economics", "Literature"],
+        "cut_off": 200,
+        "category": "social_science"
+    },
+    {
+        "name": "Nonprofit Manager",
+        "description": "Manages nonprofit organizations.",
+        "required_traits": ["organization", "communication", "empathy"],
+        "jamb_subjects": ["English", "Government", "Economics", "Literature"],
+        "cut_off": 180,
+        "category": "social_science"
+    },
+    {
+        "name": "Policy Analyst",
+        "description": "Analyzes and develops public policies.",
+        "required_traits": ["analytical_skills", "communication", "problem_solving"],
+        "jamb_subjects": ["English", "Government", "Economics", "Literature"],
+        "cut_off": 190,
+        "category": "social_science"
+    },
+    {
+        "name": "Social Media Manager",
+        "description": "Manages social media accounts for organizations.",
+        "required_traits": ["communication", "creativity", "technology"],
+        "jamb_subjects": ["English", "Literature", "Government", "Economics"],
+        "cut_off": 180,
+        "category": "social_science"
+    },
+    {
+        "name": "Tourism Manager",
+        "description": "Manages tourism and travel services.",
+        "required_traits": ["communication", "organization", "curiosity"],
+        "jamb_subjects": ["English", "Government", "Economics", "Literature"],
+        "cut_off": 180,
+        "category": "social_science"
+    },
+    {
+        "name": "Counselor",
+        "description": "Provides guidance and support to individuals.",
+        "required_traits": ["empathy", "communication", "problem_solving"],
+        "jamb_subjects": ["English", "Government", "Economics", "Literature"],
+        "cut_off": 180,
+        "category": "social_science"
+    },
+    {
+        "name": "Nutritionist",
+        "description": "Provides dietary advice and plans.",
+        "required_traits": ["health", "biology", "empathy"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 190,
+        "category": "science"
+    },
+    {
+        "name": "Dentist",
+        "description": "Diagnoses and treats dental issues.",
+        "required_traits": ["attention_to_detail", "biology", "empathy"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 240,
+        "category": "science"
+    },
+    {
+        "name": "Veterinarian",
+        "description": "Provides medical care to animals.",
+        "required_traits": ["empathy", "biology", "animals"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 220,
+        "category": "science"
+    },
+    {
+        "name": "Forensic Scientist",
+        "description": "Analyzes evidence for criminal investigations.",
+        "required_traits": ["analytical_skills", "attention_to_detail", "biology"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Geneticist",
+        "description": "Studies genes and heredity.",
+        "required_traits": ["biology", "analytical_skills", "curiosity"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 220,
+        "category": "science"
+    },
+    {
+        "name": "Meteorologist",
+        "description": "Studies weather patterns and forecasts.",
+        "required_traits": ["geography", "analytical_skills", "curiosity"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Geography"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Nuclear Engineer",
+        "description": "Designs and maintains nuclear systems.",
+        "required_traits": ["engineering", "technology", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 220,
+        "category": "science"
+    },
+    {
+        "name": "Oceanographer",
+        "description": "Studies the ocean and its ecosystems.",
+        "required_traits": ["biology", "environment", "curiosity"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Geography"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Pilot",
+        "description": "Operates aircraft and ensures passenger safety.",
+        "required_traits": ["attention_to_detail", "technology", "decision_making"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Geography"],
+        "cut_off": 230,
+        "category": "science"
+    },
+    {
+        "name": "Radiologist",
+        "description": "Diagnoses diseases using medical imaging.",
+        "required_traits": ["biology", "technology", "attention_to_detail"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 240,
+        "category": "science"
+    },
+    {
+        "name": "Surgeon",
+        "description": "Performs surgical procedures.",
+        "required_traits": ["biology", "attention_to_detail", "empathy"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 250,
+        "category": "science"
+    },
+    {
+        "name": "Web Developer",
+        "description": "Builds and maintains websites.",
+        "required_traits": ["technology", "coding", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 190,
+        "category": "science"
+    },
+    {
+        "name": "Artificial Intelligence Engineer",
+        "description": "Develops AI systems and algorithms.",
+        "required_traits": ["technology", "analytical_skills", "coding"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 210,
+        "category": "science"
+    },
+    {
+        "name": "Blockchain Developer",
+        "description": "Builds decentralized applications and systems.",
+        "required_traits": ["technology", "coding", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Cybersecurity Analyst",
+        "description": "Protects systems and networks from cyber threats.",
+        "required_traits": ["technology", "analytical_skills", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Data Engineer",
+        "description": "Builds systems for data collection and analysis.",
+        "required_traits": ["technology", "analytical_skills", "coding"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Game Developer",
+        "description": "Designs and develops video games.",
+        "required_traits": ["technology", "creativity", "coding"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 190,
+        "category": "science"
+    },
+    {
+        "name": "Machine Learning Engineer",
+        "description": "Develops machine learning models and systems.",
+        "required_traits": ["technology", "analytical_skills", "coding"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 210,
+        "category": "science"
+    },
+    {
+        "name": "Mobile App Developer",
+        "description": "Builds applications for mobile devices.",
+        "required_traits": ["technology", "coding", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 190,
+        "category": "science"
+    },
+    {
+        "name": "UI/UX Designer",
+        "description": "Designs user interfaces and experiences.",
+        "required_traits": ["creativity", "technology", "communication"],
+        "jamb_subjects": ["English", "Fine Arts", "Economics", "Government"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "Cloud Engineer",
+        "description": "Manages cloud computing systems and infrastructure.",
+        "required_traits": ["technology", "analytical_skills", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "DevOps Engineer",
+        "description": "Manages software development and IT operations.",
+        "required_traits": ["technology", "coding", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Full-Stack Developer",
+        "description": "Develops both frontend and backend systems.",
+        "required_traits": ["technology", "coding", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 190,
+        "category": "science"
+    },
+    {
+        "name": "IT Consultant",
+        "description": "Provides IT solutions and advice to businesses.",
+        "required_traits": ["technology", "communication", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 190,
+        "category": "science"
+    },
+    {
+        "name": "Network Engineer",
+        "description": "Designs and maintains computer networks.",
+        "required_traits": ["technology", "analytical_skills", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Software Architect",
+        "description": "Designs the structure of software systems.",
+        "required_traits": ["technology", "coding", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 210,
+        "category": "science"
+    },
+    {
+        "name": "Systems Analyst",
+        "description": "Analyzes and improves IT systems.",
+        "required_traits": ["technology", "analytical_skills", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Technical Writer",
+        "description": "Writes technical documentation and manuals.",
+        "required_traits": ["writing", "technology", "communication"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 180,
+        "category": "science"
+    },
+    {
+        "name": "Telecommunications Engineer",
+        "description": "Designs and maintains communication systems.",
+        "required_traits": ["technology", "engineering", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Video Game Designer",
+        "description": "Designs the gameplay and mechanics of video games.",
+        "required_traits": ["creativity", "technology", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 190,
+        "category": "science"
+    },
+    {
+        "name": "Web Designer",
+        "description": "Designs the visual layout of websites.",
+        "required_traits": ["creativity", "technology", "communication"],
+        "jamb_subjects": ["English", "Fine Arts", "Economics", "Government"],
+        "cut_off": 180,
+        "category": "arts"
+    },
+    {
+        "name": "AI Ethicist",
+        "description": "Addresses ethical issues in artificial intelligence.",
+        "required_traits": ["technology", "ethics", "communication"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Augmented Reality Developer",
+        "description": "Develops AR applications and experiences.",
+        "required_traits": ["technology", "creativity", "coding"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    },
+    {
+        "name": "Biotechnology Engineer",
+        "description": "Applies biological principles to engineering.",
+        "required_traits": ["biology", "engineering", "problem_solving"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 210,
+        "category": "science"
+    },
+    {
+        "name": "Quantum Computing Scientist",
+        "description": "Researches and develops quantum computing systems.",
+        "required_traits": ["technology", "analytical_skills", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 220,
+        "category": "science"
+    },
+    {
+        "name": "Robotics Engineer",
+        "description": "Designs and builds robots.",
+        "required_traits": ["engineering", "technology", "problem_solving"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 210,
+        "category": "science"
+    },
+    {
+        "name": "Space Scientist",
+        "description": "Studies space and planetary systems.",
+        "required_traits": ["space", "analytical_skills", "curiosity"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 220,
+        "category": "science"
+    },
+    {
+        "name": "Virtual Reality Developer",
+        "description": "Develops VR applications and experiences.",
+        "required_traits": ["technology", "creativity", "coding"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200,
+        "category": "science"
+    }
 ]

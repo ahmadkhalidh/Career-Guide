@@ -8,10 +8,11 @@
 </head>
 <body>
     <header>
-        <h1>Career Quiz</h1>
+        <h1>Career Quiz - {{ category | capitalize }}</h1>
     </header>
     <main>
-        <form action="{{ url_for('quiz') }}" method="POST">
+        <form action="{{ url_for('results') }}" method="POST">
+            <input type="hidden" name="category" value="{{ category }}">
             {% for question in questions %}
                 <div class="question">
                     <label for="question_{{ question.id }}">{{ question.question }}</label>
@@ -21,7 +22,7 @@
                     </select>
                 </div>
             {% endfor %}
-            <button type="submit" class="btn">Get Recommendations</button>
+            <button type="submit" class="btn">Submit</button>
         </form>
     </main>
 </body>
