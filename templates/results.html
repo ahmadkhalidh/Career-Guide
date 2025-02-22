@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Your Recommended Career</h1>
+    </header>
+    <main>
+        <h2>{{ career.name }}</h2>
+        <p>{{ career.description }}</p>
+        <h3>JAMB Requirements</h3>
+        <p>Subjects: {{ career.jamb_subjects | join(', ') }}</p>
+        <p>Cut-off Mark: {{ career.cut_off }}</p>
+        <a href="{{ url_for('index') }}" class="btn">Back to Home</a>
+    </main>
+</body>
+</html>

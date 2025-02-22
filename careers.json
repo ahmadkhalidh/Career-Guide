@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Software Engineer",
+        "description": "Develops software applications.",
+        "required_traits": ["logical_reasoning", "analytical_skills"],
+        "jamb_subjects": ["English", "Mathematics", "Physics", "Chemistry"],
+        "cut_off": 200
+    },
+    {
+        "name": "Doctor",
+        "description": "Diagnoses and treats medical conditions.",
+        "required_traits": ["empathy", "attention_to_detail"],
+        "jamb_subjects": ["English", "Biology", "Chemistry", "Physics"],
+        "cut_off": 250
+    },
+    {
+        "name": "Graphic Designer",
+        "description": "Creates visual content for brands.",
+        "required_traits": ["creativity", "communication"],
+        "jamb_subjects": ["English", "Fine Arts", "Economics", "Government"],
+        "cut_off": 180
+    },
+    {
+        "name": "Business Analyst",
+        "description": "Analyzes business processes and data.",
+        "required_traits": ["analytical_skills", "communication"],
+        "jamb_subjects": ["English", "Mathematics", "Economics", "Commerce"],
+        "cut_off": 190
+    },
+    // Add 96 more careers...
+]

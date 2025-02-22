@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "question": "Do you enjoy solving complex problems?",
+        "trait": "logical_reasoning"
+    },
+    {
+        "id": 2,
+        "question": "Are you interested in creating art or designs?",
+        "trait": "creativity"
+    },
+    {
+        "id": 3,
+        "question": "Do you like working with numbers?",
+        "trait": "analytical_skills"
+    },
+    {
+        "id": 4,
+        "question": "Do you enjoy helping others?",
+        "trait": "empathy"
+    },
+    {
+        "id": 5,
+        "question": "Are you good at explaining things to others?",
+        "trait": "communication"
+    },
+    // Add 95 more questions...
+]
